@@ -1,0 +1,33 @@
+h1 {
+    text-align: center
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-bottom: 0;
+  }
+  
+  .hole-game {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .hole {
+    width: 150px;
+    height: 150px;
+    margin: 0 15px 30px;
+    background: rgb(95, 95, 95);
+    border-radius: 50%;
+  }
+  
+  .hole_has-mole {
+    background-image: url(https://github.com/netology-code/ahj-homeworks/blob/video/dom/pic/goblin.png?raw=true);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
